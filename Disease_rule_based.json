@@ -1,0 +1,385 @@
+{
+  "contentType": "application/vnd.gorules.decision",
+  "nodes": [
+    {
+      "id": "e0f84bee-ab47-41a2-8dab-0a851c6b031b",
+      "name": "Request",
+      "type": "inputNode",
+      "content": {
+        "schema": "{}"
+      },
+      "position": {
+        "x": 50,
+        "y": -180
+      }
+    },
+    {
+      "id": "b9cedb72-dcaf-47cf-bf60-46d6f70111f3",
+      "name": "disease",
+      "type": "decisionTableNode",
+      "content": {
+        "rules": [
+          {
+            "_id": "eca3ab4a-fe8d-495f-9127-0a2dcb57b816",
+            "_description": "",
+            "0706eb01-21af-457c-ab5b-cff734a246cd": "\"Acute Sinusitis\"",
+            "09477010-5691-400b-91fe-f6de9a5b97ba": "false",
+            "0c129c12-fe51-4fc1-aeb0-8eb5bd658d9a": "true",
+            "0fd92437-f0ef-4777-b6e6-bc0ab8013d9e": "true",
+            "17072b22-3b63-4a64-bf3b-d1ff2f51c56b": "",
+            "2dc875db-02d1-44ec-95fc-0c779ed5745a": "false",
+            "2f5c51eb-1d6d-48b5-9621-f111907c55d4": "false",
+            "322bebd4-7995-4e47-b2aa-39101cf4b9bb": "false",
+            "387a8e73-040d-4f4d-a032-ed64eccc023e": "false",
+            "3ceca85b-06a8-45d2-a07f-9e075f85cf7f": "true",
+            "3d713e68-7ad9-4330-8cef-401dacffd889": "false",
+            "532ff839-701f-45fe-9d89-86e179174369": "true",
+            "536d0223-0416-460d-b98f-6a4edef819fe": "false",
+            "53f95aac-b9c8-4272-8fed-7eba6fdc1632": "false",
+            "5b8bf9d4-23e3-44a0-8d04-226db9fe4891": "false",
+            "678ff1cd-2db1-4663-bdcd-9a8a42f9c673": "true",
+            "73815959-0a38-41d6-9295-32202d769efa": "false",
+            "7c62b7c3-8c68-4b00-b0ad-5913598600b4": "true",
+            "801e70d7-07f2-4739-8006-21448cc792a5": "false",
+            "831b7943-b0d1-40e6-8ed0-0e26e8ef454a": "true",
+            "8607312d-fab6-4cdc-9b75-316c0d1c2780": "true",
+            "8d78f4ee-1300-4d9c-9f62-b3fcf46b3a53": "false",
+            "9ffb32d7-abf6-4afe-aaaa-719ae14ff069": "false",
+            "b3ed3638-4d8c-4d59-825f-6448a2e2755f": "true",
+            "b9302b6b-0e68-4b25-9ab7-7d776076a0a2": "",
+            "bdbc4b06-d9e8-4016-b893-612deb0c2452": "false",
+            "d28ce951-45f8-40de-8160-8b11a39c0220": "false",
+            "dc3237b1-8be9-4ebc-ac12-8de4bd8f3a81": "true",
+            "de9fccf4-d10b-40e6-8bd6-c637cf05cee5": "true",
+            "f6f5d22e-a01f-4bd6-a862-b0c7da76820d": "true"
+          },
+          {
+            "_id": "e955b30d-a4ef-48cd-85c7-0ad98c091278",
+            "_description": "",
+            "0706eb01-21af-457c-ab5b-cff734a246cd": "\"Chronic Sinusitis\"",
+            "09477010-5691-400b-91fe-f6de9a5b97ba": "false",
+            "0c129c12-fe51-4fc1-aeb0-8eb5bd658d9a": "true",
+            "0fd92437-f0ef-4777-b6e6-bc0ab8013d9e": "true",
+            "17072b22-3b63-4a64-bf3b-d1ff2f51c56b": "",
+            "2dc875db-02d1-44ec-95fc-0c779ed5745a": "false",
+            "2f5c51eb-1d6d-48b5-9621-f111907c55d4": "true",
+            "322bebd4-7995-4e47-b2aa-39101cf4b9bb": "false",
+            "387a8e73-040d-4f4d-a032-ed64eccc023e": "false",
+            "3ceca85b-06a8-45d2-a07f-9e075f85cf7f": "true",
+            "3d713e68-7ad9-4330-8cef-401dacffd889": "false",
+            "532ff839-701f-45fe-9d89-86e179174369": "false",
+            "536d0223-0416-460d-b98f-6a4edef819fe": "false",
+            "53f95aac-b9c8-4272-8fed-7eba6fdc1632": "false",
+            "5b8bf9d4-23e3-44a0-8d04-226db9fe4891": "false",
+            "678ff1cd-2db1-4663-bdcd-9a8a42f9c673": "true",
+            "73815959-0a38-41d6-9295-32202d769efa": "false",
+            "7c62b7c3-8c68-4b00-b0ad-5913598600b4": "true",
+            "801e70d7-07f2-4739-8006-21448cc792a5": "false",
+            "831b7943-b0d1-40e6-8ed0-0e26e8ef454a": "true",
+            "8607312d-fab6-4cdc-9b75-316c0d1c2780": "true",
+            "8d78f4ee-1300-4d9c-9f62-b3fcf46b3a53": "true",
+            "9ffb32d7-abf6-4afe-aaaa-719ae14ff069": "true",
+            "b3ed3638-4d8c-4d59-825f-6448a2e2755f": "true",
+            "b9302b6b-0e68-4b25-9ab7-7d776076a0a2": "",
+            "bdbc4b06-d9e8-4016-b893-612deb0c2452": "false",
+            "d28ce951-45f8-40de-8160-8b11a39c0220": "false",
+            "dc3237b1-8be9-4ebc-ac12-8de4bd8f3a81": "true",
+            "de9fccf4-d10b-40e6-8bd6-c637cf05cee5": "true",
+            "f6f5d22e-a01f-4bd6-a862-b0c7da76820d": "true"
+          },
+          {
+            "_id": "15a2aa07-4906-4233-a651-2cb115a0a8ee",
+            "_description": "",
+            "0706eb01-21af-457c-ab5b-cff734a246cd": "\"Allergic Rhinitis\"",
+            "09477010-5691-400b-91fe-f6de9a5b97ba": "true",
+            "0c129c12-fe51-4fc1-aeb0-8eb5bd658d9a": "true",
+            "0fd92437-f0ef-4777-b6e6-bc0ab8013d9e": "false",
+            "17072b22-3b63-4a64-bf3b-d1ff2f51c56b": "",
+            "2dc875db-02d1-44ec-95fc-0c779ed5745a": "true",
+            "2f5c51eb-1d6d-48b5-9621-f111907c55d4": "true",
+            "322bebd4-7995-4e47-b2aa-39101cf4b9bb": "false",
+            "387a8e73-040d-4f4d-a032-ed64eccc023e": "true",
+            "3ceca85b-06a8-45d2-a07f-9e075f85cf7f": "false",
+            "3d713e68-7ad9-4330-8cef-401dacffd889": "true",
+            "532ff839-701f-45fe-9d89-86e179174369": "false",
+            "536d0223-0416-460d-b98f-6a4edef819fe": "false",
+            "53f95aac-b9c8-4272-8fed-7eba6fdc1632": "true",
+            "5b8bf9d4-23e3-44a0-8d04-226db9fe4891": "false",
+            "678ff1cd-2db1-4663-bdcd-9a8a42f9c673": "false",
+            "73815959-0a38-41d6-9295-32202d769efa": "true",
+            "7c62b7c3-8c68-4b00-b0ad-5913598600b4": "true",
+            "801e70d7-07f2-4739-8006-21448cc792a5": "false",
+            "831b7943-b0d1-40e6-8ed0-0e26e8ef454a": "true",
+            "8607312d-fab6-4cdc-9b75-316c0d1c2780": "false",
+            "8d78f4ee-1300-4d9c-9f62-b3fcf46b3a53": "false",
+            "9ffb32d7-abf6-4afe-aaaa-719ae14ff069": "true",
+            "b3ed3638-4d8c-4d59-825f-6448a2e2755f": "true",
+            "b9302b6b-0e68-4b25-9ab7-7d776076a0a2": "",
+            "bdbc4b06-d9e8-4016-b893-612deb0c2452": "false",
+            "d28ce951-45f8-40de-8160-8b11a39c0220": "true",
+            "dc3237b1-8be9-4ebc-ac12-8de4bd8f3a81": "false",
+            "de9fccf4-d10b-40e6-8bd6-c637cf05cee5": "false",
+            "f6f5d22e-a01f-4bd6-a862-b0c7da76820d": "false"
+          },
+          {
+            "_id": "cbbd5996-a449-49c0-9d33-11b318449eb4",
+            "_description": "",
+            "0706eb01-21af-457c-ab5b-cff734a246cd": "\"Deviated Nasal Septum\"",
+            "09477010-5691-400b-91fe-f6de9a5b97ba": "false",
+            "0c129c12-fe51-4fc1-aeb0-8eb5bd658d9a": "false",
+            "0fd92437-f0ef-4777-b6e6-bc0ab8013d9e": "true",
+            "17072b22-3b63-4a64-bf3b-d1ff2f51c56b": "",
+            "2dc875db-02d1-44ec-95fc-0c779ed5745a": "false",
+            "2f5c51eb-1d6d-48b5-9621-f111907c55d4": "false",
+            "322bebd4-7995-4e47-b2aa-39101cf4b9bb": "true",
+            "387a8e73-040d-4f4d-a032-ed64eccc023e": "false",
+            "3ceca85b-06a8-45d2-a07f-9e075f85cf7f": "false",
+            "3d713e68-7ad9-4330-8cef-401dacffd889": "false",
+            "532ff839-701f-45fe-9d89-86e179174369": "false",
+            "536d0223-0416-460d-b98f-6a4edef819fe": "true",
+            "53f95aac-b9c8-4272-8fed-7eba6fdc1632": "false",
+            "5b8bf9d4-23e3-44a0-8d04-226db9fe4891": "true",
+            "678ff1cd-2db1-4663-bdcd-9a8a42f9c673": "false",
+            "73815959-0a38-41d6-9295-32202d769efa": "false",
+            "7c62b7c3-8c68-4b00-b0ad-5913598600b4": "true",
+            "801e70d7-07f2-4739-8006-21448cc792a5": "true",
+            "831b7943-b0d1-40e6-8ed0-0e26e8ef454a": "true",
+            "8607312d-fab6-4cdc-9b75-316c0d1c2780": "true",
+            "8d78f4ee-1300-4d9c-9f62-b3fcf46b3a53": "false",
+            "9ffb32d7-abf6-4afe-aaaa-719ae14ff069": "false",
+            "b3ed3638-4d8c-4d59-825f-6448a2e2755f": "false",
+            "b9302b6b-0e68-4b25-9ab7-7d776076a0a2": "",
+            "bdbc4b06-d9e8-4016-b893-612deb0c2452": "true",
+            "d28ce951-45f8-40de-8160-8b11a39c0220": "false",
+            "dc3237b1-8be9-4ebc-ac12-8de4bd8f3a81": "false",
+            "de9fccf4-d10b-40e6-8bd6-c637cf05cee5": "false",
+            "f6f5d22e-a01f-4bd6-a862-b0c7da76820d": "false"
+          },
+          {
+            "_id": "93dded9d-f64d-4d35-8ecd-032f6a23f106",
+            "_description": "",
+            "0706eb01-21af-457c-ab5b-cff734a246cd": "\"Other\"",
+            "09477010-5691-400b-91fe-f6de9a5b97ba": "",
+            "0c129c12-fe51-4fc1-aeb0-8eb5bd658d9a": "",
+            "0fd92437-f0ef-4777-b6e6-bc0ab8013d9e": "",
+            "17072b22-3b63-4a64-bf3b-d1ff2f51c56b": "",
+            "2dc875db-02d1-44ec-95fc-0c779ed5745a": "",
+            "2f5c51eb-1d6d-48b5-9621-f111907c55d4": "",
+            "322bebd4-7995-4e47-b2aa-39101cf4b9bb": "",
+            "387a8e73-040d-4f4d-a032-ed64eccc023e": "",
+            "3ceca85b-06a8-45d2-a07f-9e075f85cf7f": "",
+            "3d713e68-7ad9-4330-8cef-401dacffd889": "",
+            "532ff839-701f-45fe-9d89-86e179174369": "",
+            "536d0223-0416-460d-b98f-6a4edef819fe": "",
+            "53f95aac-b9c8-4272-8fed-7eba6fdc1632": "",
+            "5b8bf9d4-23e3-44a0-8d04-226db9fe4891": "",
+            "678ff1cd-2db1-4663-bdcd-9a8a42f9c673": "",
+            "73815959-0a38-41d6-9295-32202d769efa": "",
+            "7c62b7c3-8c68-4b00-b0ad-5913598600b4": "",
+            "801e70d7-07f2-4739-8006-21448cc792a5": "",
+            "831b7943-b0d1-40e6-8ed0-0e26e8ef454a": "",
+            "8607312d-fab6-4cdc-9b75-316c0d1c2780": "",
+            "8d78f4ee-1300-4d9c-9f62-b3fcf46b3a53": "",
+            "9ffb32d7-abf6-4afe-aaaa-719ae14ff069": "",
+            "b3ed3638-4d8c-4d59-825f-6448a2e2755f": "",
+            "b9302b6b-0e68-4b25-9ab7-7d776076a0a2": "",
+            "bdbc4b06-d9e8-4016-b893-612deb0c2452": "",
+            "d28ce951-45f8-40de-8160-8b11a39c0220": "",
+            "dc3237b1-8be9-4ebc-ac12-8de4bd8f3a81": "",
+            "de9fccf4-d10b-40e6-8bd6-c637cf05cee5": "",
+            "f6f5d22e-a01f-4bd6-a862-b0c7da76820d": ""
+          }
+        ],
+        "inputs": [
+          {
+            "id": "17072b22-3b63-4a64-bf3b-d1ff2f51c56b",
+            "name": "Age",
+            "field": "age"
+          },
+          {
+            "id": "b9302b6b-0e68-4b25-9ab7-7d776076a0a2",
+            "name": "Gender",
+            "field": "gender"
+          },
+          {
+            "id": "532ff839-701f-45fe-9d89-86e179174369",
+            "name": "Fever",
+            "field": "fever"
+          },
+          {
+            "id": "0fd92437-f0ef-4777-b6e6-bc0ab8013d9e",
+            "name": "Loss of smell",
+            "field": "loss_of_smell"
+          },
+          {
+            "id": "b3ed3638-4d8c-4d59-825f-6448a2e2755f",
+            "name": "Fatigue",
+            "field": "fatigue"
+          },
+          {
+            "id": "8607312d-fab6-4cdc-9b75-316c0d1c2780",
+            "name": "Facial Pain",
+            "field": "facial_pain"
+          },
+          {
+            "id": "dc3237b1-8be9-4ebc-ac12-8de4bd8f3a81",
+            "name": "Nose drainage",
+            "field": "drainage_from_nose"
+          },
+          {
+            "id": "831b7943-b0d1-40e6-8ed0-0e26e8ef454a",
+            "name": "Blocked nose",
+            "field": "blocked_nose"
+          },
+          {
+            "id": "3ceca85b-06a8-45d2-a07f-9e075f85cf7f",
+            "name": "Loss of taste",
+            "field": "loss_of_taste"
+          },
+          {
+            "id": "f6f5d22e-a01f-4bd6-a862-b0c7da76820d",
+            "name": "Ear pain",
+            "field": "ear_pain"
+          },
+          {
+            "id": "678ff1cd-2db1-4663-bdcd-9a8a42f9c673",
+            "name": "Bad Breath",
+            "field": "bad_breath"
+          },
+          {
+            "id": "7c62b7c3-8c68-4b00-b0ad-5913598600b4",
+            "name": "Headache",
+            "field": "headache"
+          },
+          {
+            "id": "de9fccf4-d10b-40e6-8bd6-c637cf05cee5",
+            "name": "Toothache",
+            "field": "toothache"
+          },
+          {
+            "id": "8d78f4ee-1300-4d9c-9f62-b3fcf46b3a53",
+            "name": "Thick yellow/green nose mucus",
+            "field": "thick_yellow_or_green_nose_mucus"
+          },
+          {
+            "id": "9ffb32d7-abf6-4afe-aaaa-719ae14ff069",
+            "name": "Post nasal drip",
+            "field": "post_nasal_drip"
+          },
+          {
+            "id": "2f5c51eb-1d6d-48b5-9621-f111907c55d4",
+            "name": "Cough",
+            "field": "cough"
+          },
+          {
+            "id": "2dc875db-02d1-44ec-95fc-0c779ed5745a",
+            "name": "Itchy nose/throat/eyes",
+            "field": "itchy_nose_throat_eyes"
+          },
+          {
+            "id": "387a8e73-040d-4f4d-a032-ed64eccc023e",
+            "name": "Dark Circles",
+            "field": "dark_circles"
+          },
+          {
+            "id": "73815959-0a38-41d6-9295-32202d769efa",
+            "name": "Sore throat",
+            "field": "sore_throat"
+          },
+          {
+            "id": "d28ce951-45f8-40de-8160-8b11a39c0220",
+            "name": "Wheezing",
+            "field": "wheezing"
+          },
+          {
+            "id": "53f95aac-b9c8-4272-8fed-7eba6fdc1632",
+            "name": "Trouble breathing",
+            "field": "trouble_breathing"
+          },
+          {
+            "id": "536d0223-0416-460d-b98f-6a4edef819fe",
+            "name": "Trouble breathing through nose",
+            "field": "difficulty_breathing_out_of_nostrils"
+          },
+          {
+            "id": "bdbc4b06-d9e8-4016-b893-612deb0c2452",
+            "name": "Nosebleeds",
+            "field": "nosebleeds"
+          },
+          {
+            "id": "801e70d7-07f2-4739-8006-21448cc792a5",
+            "name": "Snoring",
+            "field": "snoring"
+          },
+          {
+            "id": "322bebd4-7995-4e47-b2aa-39101cf4b9bb",
+            "name": "Off-center looking nose",
+            "field": "off_center_looking_nose"
+          },
+          {
+            "id": "0c129c12-fe51-4fc1-aeb0-8eb5bd658d9a",
+            "name": "Tenderness/pressure around nose/eyes/forehead",
+            "field": "tenderness_pressure_nose_eyes_forehead"
+          },
+          {
+            "id": "09477010-5691-400b-91fe-f6de9a5b97ba",
+            "name": "Sneezing and Runny nose",
+            "field": "runny_nose_sneezing"
+          },
+          {
+            "id": "3d713e68-7ad9-4330-8cef-401dacffd889",
+            "name": "Red/watery eyes",
+            "field": "red_watery_eyes"
+          },
+          {
+            "id": "5b8bf9d4-23e3-44a0-8d04-226db9fe4891",
+            "name": "Noisy breathing",
+            "field": "noisy_breathing"
+          }
+        ],
+        "outputs": [
+          {
+            "id": "0706eb01-21af-457c-ab5b-cff734a246cd",
+            "name": "Disease",
+            "field": "disease"
+          }
+        ],
+        "hitPolicy": "first",
+        "inputField": null,
+        "outputPath": null,
+        "passThrough": true,
+        "executionMode": "single"
+      },
+      "position": {
+        "x": 305,
+        "y": -180
+      }
+    },
+    {
+      "id": "f770c07c-af1e-484e-abfd-6a27c3cc36e4",
+      "name": "response",
+      "type": "outputNode",
+      "content": {
+        "schema": ""
+      },
+      "position": {
+        "x": 555,
+        "y": -180
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "150276ba-32f7-4f16-9194-56a4af37a0c5",
+      "type": "edge",
+      "sourceId": "e0f84bee-ab47-41a2-8dab-0a851c6b031b",
+      "targetId": "b9cedb72-dcaf-47cf-bf60-46d6f70111f3"
+    },
+    {
+      "id": "d21145fd-e9ec-4042-9173-eadf3a9ea244",
+      "type": "edge",
+      "sourceId": "b9cedb72-dcaf-47cf-bf60-46d6f70111f3",
+      "targetId": "f770c07c-af1e-484e-abfd-6a27c3cc36e4"
+    }
+  ]
+}
